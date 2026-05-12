@@ -12,9 +12,8 @@ function Sobre() {
             Comprometidos com a justiça e seus direitos
           </h2>
           <p className="text-gray-600">
-            Fundado em 2014, o escritório Silva & Associados atua com ética,
-            transparência e dedicação em cada caso. Nossa equipe é formada por
-            advogados especializados prontos para oferecer a melhor solução jurídica.
+Nosso escritório foi fundado em 2003 por Fábio Corrêa Ribeiro. E graças ao objetivo de tornar a Justiça Federal mais acessível, adotamos uma advocacia humanizada e acessível, buscando uma sociedade mais justa.
+Desse modo, rapidamente, nos tornamos referência na advocacia em Aracaju - SE, destacamo-nos pela eficiência, altos índices de sucesso e princípios de empatia e humildade em sua atuação
           </p>
           <ul className="flex flex-col gap-2 text-gray-600 text-sm">
             <li>✔️ Atendimento personalizado</li>
