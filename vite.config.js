@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     // Adicione esta parte com o link exato que o erro mostrou
     allowedHosts: [
-      'vacant-slouching-luckless.ngrok-free.dev'
+      "vacant-slouching-luckless.ngrok-free.dev",
     ]
   },
   resolve: {
