@@ -7,12 +7,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="min-h-screen bg-stone-50 font-sans text-slate-900 antialiased">
       <Header />
-      <Hero />
-      <Servicos />
-      <Sobre />
-      <Contato />
+      <main>
+        <Hero />
+        <Servicos />
+        <Sobre />
+        <Contato />
+      </main>
       <Footer />
     </div>
   );
