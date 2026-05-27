@@ -1,4 +1,5 @@
 import { BriefcaseBusiness, FileText, Landmark, Scale, ShieldCheck, UsersRound } from 'lucide-react';
+import AnimatedSection from './AnimatedSection';
 import CardServico from './CardServico';
 
 const servicos = [
@@ -21,7 +22,7 @@ const servicos = [
 
 function Servicos() {
   return (
-    <section id="servicos" className="bg-stone-50 px-5 py-20 md:px-8">
+    <AnimatedSection as="section" id="servicos" className="bg-stone-50 px-5 py-20 md:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-2xl">
@@ -65,7 +66,7 @@ function Servicos() {
           ))}
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 }
 

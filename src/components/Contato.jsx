@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
+import AnimatedSection from './AnimatedSection';
 
 function Contato() {
   const [nome, setNome] = useState('');
@@ -18,7 +19,7 @@ function Contato() {
   }
 
   return (
-    <section id="contato" className="bg-[#071521] px-5 py-20 text-white md:px-8">
+    <AnimatedSection as="section" id="contato" className="bg-[#071521] px-5 py-20 text-white md:px-8">
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
         <div className="lg:sticky lg:top-28">
           <span className="text-sm font-semibold uppercase tracking-[0.18em] text-[#d5b15f]">
@@ -127,7 +128,7 @@ function Contato() {
           </div>
         </form>
       </div>
-    </section>
+    </AnimatedSection>
   );
 }
 

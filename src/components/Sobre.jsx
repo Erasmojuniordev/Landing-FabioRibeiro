@@ -1,4 +1,5 @@
 import { CheckCircle2, Clock, HeartHandshake, MapPinned, Scale, ShieldCheck } from 'lucide-react';
+import AnimatedSection from './AnimatedSection';
 
 function Sobre() {
   const estatisticas = [
@@ -15,7 +16,7 @@ function Sobre() {
   ];
 
   return (
-    <section id="sobre" className="bg-white px-5 py-20 md:px-8">
+    <AnimatedSection as="section" id="sobre" className="bg-white px-5 py-20 md:px-8">
       <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
         <div>
           <span className="text-sm font-semibold uppercase tracking-[0.18em] text-[#a17a20]">
@@ -65,7 +66,7 @@ function Sobre() {
           ))}
         </div>
       </div>
-    </section>
+    </AnimatedSection>
   );
 }
 

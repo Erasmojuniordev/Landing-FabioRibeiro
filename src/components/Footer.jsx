@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MapPin, Phone, Youtube } from 'lucide-react';
+import { Camera, MapPin, Phone, PlayCircle, Share2 } from 'lucide-react';
 
 function Footer() {
   return (
@@ -27,7 +27,7 @@ function Footer() {
             Rua Duque de Caxias, 188, São José, Aracaju - SE
           </p>
           <div className="flex gap-2 pt-2">
-            {[Instagram, Facebook, Youtube].map((Icon, index) => (
+            {[Camera, Share2, PlayCircle].map((Icon, index) => (
               <span key={index} className="inline-flex size-9 items-center justify-center rounded-lg border border-slate-200 text-[#071521]">
                 <Icon className="size-4" />
               </span>

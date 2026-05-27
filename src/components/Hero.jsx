@@ -50,7 +50,7 @@ function Hero() {
               { icon: CheckCircle2, text: '23 anos de atuação' },
               { icon: CheckCircle2, text: 'Atendimento personalizado' },
             ].map((item) => (
-              <div key={item.text} className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/8 px-3 py-3 text-sm text-slate-100 backdrop-blur">
+              <div key={item.text} className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.08] px-3 py-3 text-sm text-slate-100 backdrop-blur">
                 <item.icon className="size-4 text-[#d5b15f]" />
                 <span>{item.text}</span>
               </div>
